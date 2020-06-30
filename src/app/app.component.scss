@@ -1,0 +1,126 @@
+/* Style the header with a grey background and some padding */
+$white: #fff;
+
+header {
+  background-image: linear-gradient(rgba(63, 81, 181, 0.7), rgba(255, 0, 0, 0));
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 999;
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .textShadow {
+    color: white;
+    font: bold 45px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902;
+    -webkit-transition: all 0.12s ease-out;
+    -moz-transition: all 0.12s ease-out;
+    -ms-transition: all 0.12s ease-out;
+    -o-transition: all 0.12s ease-out;
+  }
+  .textShadow:hover {
+    position: relative;
+    top: -3px;
+    left: -3px;
+    text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;
+  }
+
+  .vox-nav {
+    padding: 15px 0;
+    text-align: right;
+
+    .customSelect {
+      display: inline-flex;
+      width: 75%;
+    }
+    .btn-primary {
+      color: black;
+      background-color: $white;
+      border-color: $white;
+      box-shadow: none;
+    }
+    .langbuttonGroup{
+      height: 28px;
+      align-items: center;
+      .langButton{
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.mainPageContent {
+  // min-height: calc(100% - 184px);
+  min-height: 100%;
+  // margin-bottom: 30px;
+  padding-top: 130px;
+
+  .mat-form-field {
+    display: block;
+    padding: 10px;
+  }
+
+  .rowBottomMargin {
+    margin-bottom: 20px;
+  }
+
+  .rowCustomMP {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .customPosition {
+    position: absolute;
+    left: 25px;
+    top: 50px;
+  }
+
+  .mat-card-actions {
+    padding: 0px 0px 0px 15px;
+  }
+
+  .table-bordered {
+    thead {
+      tr {
+        th {
+          font-size: 12px;
+          color: #000000;
+          text-align: center;
+          vertical-align: middle;
+          padding: 5px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          color: #000000;
+          vertical-align: top;
+          text-align: center;
+          font-size: 14px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+a {
+  cursor: pointer;
+}
+a.active {
+  color: $white;
+  font-weight: bolder;
+}
+.ie-fix {
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  z-index: 10000;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */

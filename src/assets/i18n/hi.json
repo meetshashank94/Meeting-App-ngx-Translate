@@ -1,0 +1,20 @@
+{   
+    "projectTitle":"मीट ऐप",
+    "TimeZone_Title:": "समय क्षेत्र: ",
+    "firstNamePlaceholder": "यहां पहला नाम दर्ज करें",
+    "middleNamePlaceholder": "मध्य नाम दर्ज करें (हो तो)",
+    "lastNamePlaceholder": "यहां लास्ट नेम एंटर करें",
+    "meetingDatePlaceholder": "एक तिथि चुनें",
+    "submitButton": "जामा करे",
+    "meetingStartTimeLabel": "शुरू होने का समय",
+    "meetingEndTimeLabel": "समाप्त होने का समय",
+    "firstName": "पहला नाम",
+    "middleName": "मध्य नाम",
+    "lastName": "लास्ट नेम",
+    "meetingDate": "मिलने की तारीख",
+    "startTime": "शुरू होने का समय",
+    "endTime": "समाप्त होने का समय",
+    "mettingTimeError": "दोनों समय समान नहीं हो सकते *",
+    "noRecordsMessage": "प्रदर्शित करने के लिए कोई मीटिंग रिकॉर्ड नहीं !!",
+    "defaultTime": "डिफ़ॉल्ट समय 10:00 पूर्वाह्न"
+}

@@ -9,7 +9,7 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
       ],
     }).compileComponents();
   }));
@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'globalVoxIncDemo'`, () => {
+  it(`should have as title 'ngx-translateDemo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('globalVoxIncDemo');
+    expect(app.title).toEqual('ngx-translateDemo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('globalVoxIncDemo app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('ngx-translateDemo app is running!');
   });
 });

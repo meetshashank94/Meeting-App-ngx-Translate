@@ -1,0 +1,20 @@
+{
+    "projectTitle":"Meet App",
+    "TimeZone_Title:": "Timezone: ",
+    "firstNamePlaceholder": "Enter First Name here",
+    "middleNamePlaceholder": "Enter Middle Name if any",
+    "lastNamePlaceholder": "Enter Last Name here",
+    "meetingDatePlaceholder": "Choose a date",
+    "submitButton": "Request Meeting",
+    "meetingStartTimeLabel": "Start time",
+    "meetingEndTimeLabel": "End time",
+    "firstName": "First Name",
+    "middleName": "Middle Name",
+    "lastName": "Last Name",
+    "meetingDate": "Meeting Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "mettingTimeError": "Start and End time can't be same *",
+    "noRecordsMessage": "No meeting records to display !!",
+    "defaultTime": "Default time 10:00 AM"
+}

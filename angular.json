@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "globalVoxIncDemo": {
+    "ngx-translateDemo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/globalVoxIncDemo",
+            "outputPath": "dist/ngx-translateDemo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -63,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "globalVoxIncDemo:build"
+            "browserTarget": "ngx-translateDemo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "globalVoxIncDemo:build:production"
+              "browserTarget": "ngx-translateDemo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "globalVoxIncDemo:build"
+            "browserTarget": "ngx-translateDemo:build"
           }
         },
         "test": {
@@ -89,7 +90,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -111,15 +112,21 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "globalVoxIncDemo:serve"
+            "devServerTarget": "ngx-translateDemo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "globalVoxIncDemo:serve:production"
+              "devServerTarget": "ngx-translateDemo:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "globalVoxIncDemo"
+    }
+  },
+  "defaultProject": "ngx-translateDemo",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

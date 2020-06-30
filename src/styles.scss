@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~select2/dist/css/select2.min.css';
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+body, html {
+    background-color: #eeeeee;
+    height: 100%;
+    width: 100%;
+}
+
+.nopadding {
+    margin: 0;
+    padding: 0;
+}
+.rFloat{
+    float: right;
+}

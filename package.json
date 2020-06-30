@@ -1,5 +1,5 @@
 {
-  "name": "global-vox-inc-demo",
+  "name": "ngx-translateDemo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -12,14 +12,22 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.13",
+    "@angular/cdk": "~8.2.3",
     "@angular/common": "~8.2.13",
     "@angular/compiler": "~8.2.13",
     "@angular/core": "~8.2.13",
     "@angular/forms": "~8.2.13",
+    "@angular/material": "^8.2.3",
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
-    "rxjs": "~6.4.0",
+    "@ngx-translate/core": "^12.1.2",
+    "@ngx-translate/http-loader": "^4.0.0",
+    "bootstrap": "^4.5.0",
+    "crypto-js": "^4.0.0",
+    "hammerjs": "^2.0.8",
+    "moment-timezone": "^0.5.31",
+    "ng2-timezone-selector": "^0.2.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
