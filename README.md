@@ -1,4 +1,4 @@
-# Meeting-App-ngx-translate
+# ngx-translateDemo
 
 Simple demo to translate a Meeting App using ngx-translate from https://www.npmjs.com/package/@ngx-translate/core
 
